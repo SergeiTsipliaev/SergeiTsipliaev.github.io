@@ -173,7 +173,7 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  border-radius: 50px;
+  border-radius: 40px;
   background: #f2f3f5;
   height: 56px;
   width: 100%;
@@ -526,7 +526,7 @@ section {
   padding: 0 0 20px 20px;
   margin-top: -2px;
   border-left: 2px solid #0563bb;
-  position: relative;
+  /* position: relative; */
 }
 
 .resume .resume-item h4 {
@@ -549,7 +549,7 @@ section {
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
+  padding-left: px;
 }
 
 .resume .resume-item ul li {
