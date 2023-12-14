@@ -13,7 +13,7 @@
   $contact = new PHP_Email_Form;
   $contact->ajax = true;
   
-  $contact->Mailer = 'smtp'
+
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
@@ -21,10 +21,10 @@
 
   
   $contact->smtp = array(
-    'host' => 'smtp.yandex.ru',
-    'username' => 'serg-ciplaev@yandex.ru',
-    'password' => 'serbeen@1991',
-    'port' => '465'
+    'host' = 'smtp.yandex.ru',
+    'username' = 'serg-ciplaev@yandex.ru',
+    'password' = 'serbeen@1991',
+    'port' = '465'
   );
   
 
