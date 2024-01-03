@@ -20,10 +20,10 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
   $contact->smtp = array(
-    'host' => 'smtp.yandex.ru',
-    'username' => 'serg-ciplaev@yandex.ru',
-    'password' => 'serbeen@1991',
-    'port' => '465'
+    'host' => '',
+    'username' => '',
+    'password' => '',
+    'port' => ''
   );
   
 
